@@ -1,0 +1,8 @@
+ll distance (ll x1, ll x2, ll y1, ll y2) {
+  return sqrt((x1 - x2)*(x1 - x2) + (y1 - y2)*(y1 - y2));
+}
+
+ll heron (ll a, ll b, ll c) {
+  ll s = (a + b + c) / 2.0;
+  return sqrt(s * (s - a) * (s - b) * (s - c));
+}
