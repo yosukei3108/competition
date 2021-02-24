@@ -1,0 +1,7 @@
+gitpod /workspace/Conpetition $ g++ primes.cpp 
+gitpod /workspace/Conpetition $ ./a.out 
+素朴な素数の列挙
+162.720399
+
+エラトステネスの篩
+0.01249
