@@ -1,0 +1,7 @@
+*~
+*.log
+.vscode*
+bits*
+*.out
+*.exe
+input*
