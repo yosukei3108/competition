@@ -19,8 +19,8 @@ cout << s[s.size()-1];
 
 ## B
 
-1 ≤ i<sub>1</sub> < i<sub>2</sub> ≤ H および 1 ≤ j<sub>1</sub> < j<sub>2</sub> ≤W を満たす
-すべての整数の組 (i<sub>1</sub>, i<sub>2</sub>, j<sub>1</sub>, j<sub>2</sub>) の走査
+*1 ≤ i<sub>1</sub> < i<sub>2</sub> ≤ H* および *1 ≤ j<sub>1</sub> < j<sub>2</sub> ≤W* を満たす  
+すべての整数の組 *(i<sub>1</sub>, i<sub>2</sub>, j<sub>1</sub>, j<sub>2</sub>)* の走査
 
 ```cpp
 int h, w;
@@ -48,7 +48,7 @@ for(int i1=0; i1<h-1; i1++){
 ```
 
 ## C
-互いに異なる 3 点が直線を成すかの判定
+互いに異なる 3 点が直線を成すかの判定  
 [ref](https://qiita.com/tydesign/items/ab8a5ae52eb9c50ad26a)
 
 ```cpp
