@@ -1,15 +1,28 @@
-// https://atcoder.jp/contests/abc224
+# [ABC85](https://atcoder.jp/contests/abc085)
 
-// A
-// 文字列の末尾を出力
+## C
+
+[ref](https://qiita.com/drken/items/fd4e5e3630d0f5859067#%E7%AC%AC-8-%E5%95%8F--abc-085-c---otoshidama-300-%E7%82%B9)
+
+**1 秒間で処理できる for 文ループの回数は、10^8 = 100,000,000 回程度**
+
+# [ABC224](https://atcoder.jp/contests/abc224)
+
+## A
+string の末尾を出力
+
+```cpp
 string s;
 cin >> s;
 cout << s[s.size()-1];
+```
 
-// B
-// 1 ≤ i1 < i2 ≤ H および 1 ≤ j1 < j2 ≤W を満たす
-// すべての整数の組 (i1 ,i2 ,j1 ,j2) の走査
+## B
 
+1 ≤ i<sub>1</sub> < i<sub>2</sub> ≤ H および 1 ≤ j<sub>1</sub> < j<sub>2</sub> ≤W を満たす
+すべての整数の組 (i<sub>1</sub>, i<sub>2</sub>, j<sub>1</sub>, j<sub>2</sub>) の走査
+
+```cpp
 int h, w;
 cin >> h >> w;
 
@@ -32,10 +45,13 @@ for(int i1=0; i1<h-1; i1++){
         }
     }
 }
+```
 
-// C
-// 相違なる 3 点が直線を成すかの判定
-// https://qiita.com/tydesign/items/ab8a5ae52eb9c50ad26a
+## C
+互いに異なる 3 点が直線を成すかの判定
+[ref](https://qiita.com/tydesign/items/ab8a5ae52eb9c50ad26a)
+
+```cpp
 int n;
 cin >> n;
 
@@ -58,3 +74,4 @@ for(int i=0; i<n; i++){
         }
     }
 }
+```
